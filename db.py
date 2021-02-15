@@ -1,10 +1,6 @@
 from tinydb import TinyDB
-db = TinyDB('db.json')
+db = TinyDB('db.json',indent=4)
 
-user1 = {'Name':'Javohir','Age':21,'City':'Samarqand','Job':'Developer'}
-user2 = {'Name':'Jamshid','Age':19,'City':'Jizzax','Job':'Coding'}
-user3 = {'Name':'Diyor','Age':19,'City':'Jizzax','Job':'Software engeener'}
+user = {'Name':'Javohir','Age':21,'Phone_number':998941234567}
 
-db.insert(user1)
-db.insert(user2)
-db.insert(user3)
+db.insert(user)
