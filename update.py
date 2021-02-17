@@ -4,5 +4,5 @@ User = Query()
 user = {'Phone_number':123}
 
 x = db.update(user,User.Name=='Javohir')
-print(x)
+
 
